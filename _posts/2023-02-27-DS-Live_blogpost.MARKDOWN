@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "whoami"
+title:  "Why Data Science?"
 date:   2023-02-27 19:06:31 -0500
 categories: datascience blogs
 pin: true
@@ -8,14 +8,13 @@ pin: true
 
 adding information ...
 
-```python
-def test:
-  print('test')
-```
+## $ whoami_
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
-File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+In 2015 I started my professional career with a mostly-undefined IT position.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The department I was working for knew they wanted an intern but really couldn't
+figure out what exactly _for_.
+
+After weeks of "Look busy™" and "Put this into a spreadsheet," they ran out of
+busywork. As my internship came to an end, I had managed to impress a couple
+of other departments heads by coding some extremely basic HTML
