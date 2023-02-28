@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JD_Blogs >_</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-02-27T21:33:03-05:00</updated>
+  <updated>2023-02-27T22:32:36-05:00</updated>
   <author>
     <name>JD Mentz</name>
     <uri>http://localhost:4000/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>whoami</title>
-    <link href="http://localhost:4000/posts/DS-Live_blogpost/" rel="alternate" type="text/html" title="whoami" />
+    <title>Why Data Science?</title>
+    <link href="http://localhost:4000/posts/DS-Live_blogpost/" rel="alternate" type="text/html" title="Why Data Science?" />
     <published>2023-02-27T19:06:31-05:00</published>
   
     <updated>2023-02-27T19:06:31-05:00</updated>
@@ -50,14 +50,16 @@
 
       adding information …
 
-def test:
-  print('test')
+$ whoami_
 
+In 2015 I started my professional career with a mostly-undefined IT position.
 
-Check out the Jekyll docs for more info on how to get the most out of Jekyll.
-File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.
+The department I was working for knew they wanted an intern but really couldn’t
+figure out what exactly for.
 
-
+After weeks of “Look busy™” and “Put this into a spreadsheet,” they ran out of
+busywork. As my internship came to an end, I had managed to impress a couple
+of other department...
     </summary>
   
 

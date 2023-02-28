@@ -1,7 +1,7 @@
 [
   
   {
-    "title": "whoami",
+    "title": "Why Data Science?",
     "url": "/posts/DS-Live_blogpost/",
     "categories": "datascience, blogs",
     "tags": "",
@@ -13,8 +13,8 @@
 
 
     
-    "snippet": "adding information …def test:  print('test')Check out the Jekyll docs for more info on how to get the most out of Jekyll.File all bugs/feature requests at Jekyll’s GitHub repo. If you have question...",
-    "content": "adding information …def test:  print('test')Check out the Jekyll docs for more info on how to get the most out of Jekyll.File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk."
+    "snippet": "adding information …$ whoami_In 2015 I started my professional career with a mostly-undefined IT position.The department I was working for knew they wanted an intern but really couldn’tfigure out w...",
+    "content": "adding information …$ whoami_In 2015 I started my professional career with a mostly-undefined IT position.The department I was working for knew they wanted an intern but really couldn’tfigure out what exactly for.After weeks of “Look busy™” and “Put this into a spreadsheet,” they ran out ofbusywork. As my internship came to an end, I had managed to impress a coupleof other departments heads by coding some extremely basic HTML"
   },
   
   {
