@@ -85,9 +85,44 @@ are ever asked to use Google Sheets as a database - run.
 
 The further, the faster, the better.
 
-I went into that project know absolutely 0 JavaScript. Afterwards, I feel
-like I somehow knew less.
+I went into that project knowing absolutely 0 JavaScript. Afterwards, I
+feel like I somehow knew less.
 
 There was something I learned a lot about over that process though - 
 
 ## Data.
+
+Since that catastrophe of conflicts and an ungodly number of requests that,
+at best, didn't make any sense, I've been putting my brain to a litany of
+data projects. All to scratch that itch of the "What's the best way to do
+this" question.
+
+"What's the best time to fish during the winter in Project:
+Zomboid and what are my exact odds of catching something? Is it actually
+worth it to even **try** during the day?"
+
+"How many Pokemon did I catch during my last play session? What's my
+remaining percentage and what are each of their odds betwene catch rates
+and encounter rates?"
+
+Or even "Is there a good way for me to catalog the available XML data of
+customers in our contact-base and how can I best search all of the client
+comments for the customer type I'm interested in?"
+
+Every time I approach any kind of issue, I ask myself two questions.
+> Can this be easier? \
+> What's the best way for this to be done?
+
+## next_steps.edu
+
+Since 100% of my background has either been personal or not fully
+formalized, it was hard to find next steps forward. As I found myself out
+of a job at the end of 2022, I decided it was time to put some stake in
+my passion for Data Science, and get some career direction along the way.
+
+Starting Feb 20, 2023, I began a 15-week intensive Data Science bootcamp
+to completely dedicate my Data Science interest into something that's
+marketable.
+
+At last, it was time for me to go from Data Science **Geek** to Data
+Scien**tist**
