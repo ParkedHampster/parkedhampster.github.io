@@ -6,8 +6,6 @@ categories: datascience blogs
 pin: true
 ---
 
-adding information ...
-
 ## $ whoami_
 
 In 2015 I started my professional career with a mostly-undefined IT position.
