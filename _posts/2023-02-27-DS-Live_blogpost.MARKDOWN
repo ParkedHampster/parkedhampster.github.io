@@ -48,7 +48,7 @@ I was disappointed that I wouldn't be getting my hands dirty in any PLCs
 or risking my hand around any pneumatics, but it all turned out to be a
 blessing in disguise.
 
-As it turns out, I had some, albeit minor, engineering experienc. I was able
+As it turns out, I had some, albeit minor, engineering experience. I was able
 to help out some of the other starting interns in brainstorming and the tales
 of my extremely basic knowledge of vaguely how computers worked sometimes had
 made their way throughout the engineering department.
