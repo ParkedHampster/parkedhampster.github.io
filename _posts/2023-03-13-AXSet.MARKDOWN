@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Reduce Re-Typing with ax.set"
+date:   2023-03-13 11:09:18 -0500
+categories: datascience blogs documentation
+published: true
+pin: true
+---
+
+# OUTLINE --- DELETE THIS SECTION
+
+- problem
+- def `ax.*` , `ax.set()`
+  - why
+    - readability
+    - av. retype
+
+# OUTLINE --- DELETE THIS SECTION
+
+# saeuth
+
+## Using `fig, ax`
+
+Starting off - the imports and dependencies.
+
+We'll be taking a look at matplotlib's pyplot functionality <sup>(plt)</sup>
+
+```python
+from matplotlib import pyplot as plt
+
+%matplotlib inline # <= Jupyter Notebook's inline display magic command
+```
+
+As normal, the plot can be set up with the `fig, ax` declaration commonly
+used in matplotlib.
+
+```py
+fig, ax = plt.subplots()
+```
+
+We'll set a litle bit of example data here to that things make more sense later.
+
+```py
+shirts_by_people = {
+    "Thomas" : 15,
+    "Jane" : 3,
+    "Carlos" : 7,
+    "Jermaine" : 9,
+    "Hayle" : 4
+}
+```
+![a]()
+
+Normally, setting up the title, labels, and various details would be fairly
+verbose, having to be explicit about WHAT is being set in the method call.
+
+```py
+ax.set_title("Shirts Per Person")
+ax.set_ylabel("Number of Shirts")
+ax.set_xlabel("Person Name")
+```
