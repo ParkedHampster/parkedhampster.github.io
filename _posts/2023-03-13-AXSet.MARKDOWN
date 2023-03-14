@@ -1,25 +1,24 @@
 ---
 layout: post
-title:  "Reduce Re-Typing with ax.set"
+title:  "Increase Readability with ax.set"
 date:   2023-03-13 11:09:18 -0500
 categories: datascience blogs documentation
-published: true
+published: false
 pin: true
 ---
 
-# OUTLINE --- DELETE THIS SECTION
+[//]: # (OUTLINE --- DELETE THIS SECTION)
 
-- problem
-- def `ax.*` , `ax.set()`
-  - why
-    - readability
-    - av. retype
+[//]:- problem
+[//]:- def `ax.*` , `ax.set()`
+[//]:  - why
+[//]:    - readability
+[//]:    - av. retype
 
-# OUTLINE --- DELETE THIS SECTION
+[//]: # OUTLINE --- DELETE THIS SECTION
 
-# saeuth
 
-## Using `fig, ax`
+# Using Explicit `.set_<...>` Methods
 
 Starting off - the imports and dependencies.
 
@@ -49,7 +48,8 @@ shirts_by_people = {
     "Hayle" : 4
 }
 ```
-![a]()
+![a](/assets/2023-03-13/nolabels_dark.png#gh-dark-mode-only)
+![a](/assets/2023-03-13/nolabels.png#gh-light-mode-only)
 
 Normally, setting up the title, labels, and various details would be fairly
 verbose, having to be explicit about WHAT is being set in the method call.
