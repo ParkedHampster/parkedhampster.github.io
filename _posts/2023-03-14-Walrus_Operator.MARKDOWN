@@ -1,4 +1,4 @@
-2533 152nd Ave NE Suite 14JK---
+---
 layout: post
 title:  "Walrus Operator"
 date:   2023-03-14 16:31:45 -0500
