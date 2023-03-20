@@ -1,10 +1,10 @@
----
+2533 152nd Ave NE Suite 14JK---
 layout: post
 title:  "Walrus Operator"
 date:   2023-03-14 16:31:45 -0500
 categories: datascience blogs python
 tags: python walrus operator
-published: true
+published: false
 pin: true
 ---
 
@@ -173,10 +173,21 @@ while (user_input := input("What's your favorite arctic mammal? > ").lower()) !=
 ```
 That's quite a bit cleaner!
 
+It's great that we can clean a lot of this up, but we should
+probably drop the pun for a little bit and move on to some
+more real-world oriented applications.
+
+## Navigating With a `.map`
+
+
+
+## ~~In~~comprehensible!
+
+
 
 <br/><br/>
 ## References
-[^fn1]: https://www.python.org/doc/versions/
-[^fn2]: https://docs.python.org/release/3.8.0/whatsnew/3.8.html
+[^fn1]: [https://www.python.org/doc/versions/](https://www.python.org/doc/versions/)
+[^fn2]: [https://docs.python.org/release/3.8.0/whatsnew/3.8.html](https://docs.python.org/release/3.8.0/whatsnew/3.8.html)
 [^fn3]: In my experience
-[^fnwalrus-syntax]: https://realpython.com/python-walrus-operator/#walrus-operator-syntax
+[^fnwalrus-syntax]: [https://realpython.com/python-walrus-operator/#walrus-operator-syntax](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)
