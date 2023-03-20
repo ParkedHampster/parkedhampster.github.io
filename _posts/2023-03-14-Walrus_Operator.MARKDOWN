@@ -122,7 +122,7 @@ Statistics has a LOT of math.
 -->
 
 ### Simpl`if`ying some things...
-One of the most common use cases<sup>[^fn3]</sup>
+One of the most common use cases[^fn3]
 of walruses in the wild is in a conditional statement.
 
 Let's say that we want to print some number (`n`) if the square
@@ -177,17 +177,71 @@ It's great that we can clean a lot of this up, but we should
 probably drop the pun for a little bit and move on to some
 more real-world oriented applications.
 
+<!--
 ## Navigating With a `.map`
-
-
+-->
 
 ## ~~In~~comprehensible!
+Frequently, Pandas data frames or dictionaries will need to be
+mapped over. List comprehensions are, generally, pretty compact
+and great in their own right - but what if you need to use the
+same operation over and over again? What if you need to use
+each instance in the next iteration?
+
+This is where a walrus-ified variable can truly come in handy.
+
+We're going to look at COVID data from India that covers the 
+time period from January 30th, 2020 to October 31st, 2021.
+This dataset is available [here](https://www.kaggle.com/datasets/mdahmadjami/covid19-india?resource=download)[^fn5]
+ via Kaggle. The next steps will
+also assume that pandas has been imported as `pd`.
+
+The dataset we're taking a look at *does* have a column for new
+cases, but what if it didn't? Here, we'll go ahead and re-calculate
+new cases based on the cumulative number of cases. We'll go ahead
+and create a new column for the calculated data as well.
+
+```python
+covid_daily_in = pd.read_csv('./COVID-19_India_Data.csv')
+prev_day = 0
+covid_daily_in['calculated_cases'] = [
+        abs(prev_day - (prev_day := cases)) for
+        cases in covid_daily_in['cum_cases']
+    ]
+```
+
+| Date	        | Total Cases	| New Cases	| Calculated Cases |
+|---------------|-----------|-----------|-------------------|
+| 2020-01-30	| 1	        | 1	        | 1                 |
+| 2020-01-31	| 1	        | 0	        | 0                 |
+| 2020-02-01	| 1	        | 0	        | 0                 |
+| 2020-02-02	| 2	        | 1	        | 1                 |
+| 2020-02-03	| 3	        | 1	        | 1                 |
+| ...	        | ...	    | ...	    | ...               |
+| 2021-10-27	| 34231030	| 16351 	| 16351             |
+| 2021-10-28	| 34245337	| 14307	    | 14307             |
+| 2021-10-29	| 34259552	| 14215	    | 14215             |
+| 2021-10-30	| 34272492	| 12940	    | 12940             |
+| 2021-10-31	| 34285399	| 12907	    | 12907             |
+
+The `new_cases` and `calculated_cases` values line up, which means
+that (in theory) the line worked!
+
+There's a little bit of wonkiness going on to get this functional
+because of the order that the assignment happens, but it works out
+well and doesn't have to call a previous cell or enumerate on every
+line.
+
+An alternative way to have this written out would be:
+```python
+
+```
 
 
-
-<br/><br/>
+<br/>
 ## References
-[^fn1]: [https://www.python.org/doc/versions/](https://www.python.org/doc/versions/)
-[^fn2]: [https://docs.python.org/release/3.8.0/whatsnew/3.8.html](https://docs.python.org/release/3.8.0/whatsnew/3.8.html)
+[^fn1]: [Python version docs](https://www.python.org/doc/versions/)
+[^fn2]: [Python 3.8 release notes](https://docs.python.org/release/3.8.0/whatsnew/3.8.html)
 [^fn3]: In my experience
-[^fnwalrus-syntax]: [https://realpython.com/python-walrus-operator/#walrus-operator-syntax](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)
+[^fnwalrus-syntax]: [RealPython.com walrus operator syntax](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)
+[^fn5]: [Covid-19 Cases for India, Kaggle](https://www.kaggle.com/datasets/mdahmadjami/covid19-india?resource=download)
