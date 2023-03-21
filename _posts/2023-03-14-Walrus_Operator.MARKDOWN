@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Walrus Operator"
-date:   2023-03-14 16:31:45 -0500
+date:   2023-03-20 16:31:45 -0500
 categories: datascience blogs python
 tags: python walrus operator
 published: true
