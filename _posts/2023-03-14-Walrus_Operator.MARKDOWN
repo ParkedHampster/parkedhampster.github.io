@@ -42,7 +42,7 @@ Software Foundation approaches Python's usability. It's the
 same reason the walrus operator is useful in the first place,
 you can't perform an assignment during an operation.
 
-[RealPython.com has a really good explanation about this here.](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)[^fnwalrus-syntax]
+[RealPython.com has a really good explanation about this here.](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)[^fn3]
 Additionally, their entire page goes into a lot more detail on
 the operator itself, if you have a chance to really dig
 into it.
@@ -122,7 +122,7 @@ Statistics has a LOT of math.
 -->
 
 ### Simpl`if`ying some things...
-One of the most common use cases[^fn3]
+One of the most common use cases[^fn4]
 of walruses in the wild is in a conditional statement.
 
 Let's say that we want to print some number (`n`) if the square
@@ -177,10 +177,6 @@ It's great that we can clean a lot of this up, but we should
 probably drop the pun for a little bit and move on to some
 more real-world oriented applications.
 
-<!--
-## Navigating With a `.map`
--->
-
 ## ~~In~~comprehensible!
 Frequently, Pandas data frames or dictionaries will need to be
 mapped over. List comprehensions are, generally, pretty compact
@@ -234,14 +230,57 @@ line.
 
 An alternative way to have this written out would be:
 ```python
-
+calculated_cases = [covid_daily_in['cum_cases'].iloc[0]]
+for i ,_case in enumerate(covid_daily_in['cum_cases'][1:]):
+    calculated_cases.append(
+        _case - covid_daily_in['cum_cases'].iloc[i]
+    )
+covid_daily_in['calculated_cases'] = calculated_cases
 ```
+
+Not only is the first result _cleaner_, it's _**faster**_.
+
+Here are the results of running the magic function `%%timeit` in
+a notebook:
+
+For the list comprehension: \
+`30.3 µs ± 60.3 ns per loop (mean ± std. dev. of 7 runs, 10000 loops each)`
+
+For the for loop: \
+`1700 µs ± 4470 ns per loop (mean ± std. dev. of 7 runs, 1000 loops each)`
+
+_**That's 56 times faster**_.
+
+A lot of that speed comes from not having to re-reference the data
+frame.
+
+## Wrapping Things Up
+
+There's a lot more that can be done with the walrus operator,
+it has a lot of uses and a lot of *mis*uses. Always make sure
+you're fitting in with the style guides outlined in PEP where
+possible. Not all space reduction in Python is created equal.
+
+If you're looking for more information on the walrus operator
+and good ways to use it, check out the RealPython post that
+was mentioned above and below. There's also a good post on
+[mathspp.com about when to, and when not to, use the walrus operator](https://mathspp.com/blog/pydonts/assignment-expressions-and-the-walrus-operator)[^fn6]
+
+Additionally, if you want to run the code outlined in this
+post, you can find a Jupyter notebook with all of the references
+available
+[here](/assets/2023-03-14/walrus_interactible.ipynb).
+\(you'll need 
+[this](/assets/2023-03-14/COVID-19_India_Data.csv)
+.csv file as well if you can't get it from kaggle, they'll need
+to be put in the same folder).
 
 
 <br/>
 ## References
 [^fn1]: [Python version docs](https://www.python.org/doc/versions/)
 [^fn2]: [Python 3.8 release notes](https://docs.python.org/release/3.8.0/whatsnew/3.8.html)
-[^fn3]: In my experience
-[^fnwalrus-syntax]: [RealPython.com walrus operator syntax](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)
+[^fn3]: [RealPython.com walrus operator syntax](https://realpython.com/python-walrus-operator/#walrus-operator-syntax)
+[^fn4]: In my experience <sup>this does not count as a real reference</sup>
 [^fn5]: [Covid-19 Cases for India, Kaggle](https://www.kaggle.com/datasets/mdahmadjami/covid19-india?resource=download)
+[^fn6]: [Mathspp.com / PyDon't](https://mathspp.com/blog/pydonts/assignment-expressions-and-the-walrus-operator)
