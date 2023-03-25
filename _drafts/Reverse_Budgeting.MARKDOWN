@@ -199,3 +199,38 @@ Step Three:
 > bank is an online bank that doesn't
 > support multiple regular/checking
 > accounts.
+
+The only thing left to do from here is go
+into ADP and select my bank accounts.  
+The order is important.
+
+First:  
+Major payments.
+This account needs to get its
+money. This needs to be first, because if
+I miss a day or two of work and don't actually
+get the full amount that I expect in a paycheck,
+my primary focus is to be not homeless.  
+<br />
+Next:  
+Minor payments.  
+Ideally, if I have to cut back into my accounts,
+this is the last one that I want to cut into
+besides my house payments and other necessities.  
+<br />
+From here, the level of importance is up to the
+person, I imagine. You can definitely put a
+fixed amount into all of your accounts and then
+either put a percentage into a savings account
+or just dump whatever is left into the daily
+spending account *or* the savings account.  
+Personally, what I did was put a fixed $50
+into my untouchable savings account and $200
+into my "this is for stuff I want" account.
+Again, I have been very fortunate with this.
+What I was left with was $250-$350 to pay for
+gas, food, and other daily expenses. I would
+often have to dip into my purchases account,
+but that was always okay since I was still
+getting all of my payments taken care of on
+accident every time.
