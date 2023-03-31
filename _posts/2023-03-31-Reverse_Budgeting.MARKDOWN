@@ -89,8 +89,6 @@ I can set up multiple bank accounts for
 different types of payments with different
 types of access.
 
-<sup>[via pexels](https://www.pexels.com/photo/white-and-gray-building-1398431/)</sup>
-
 <details>
   <summary><strong> &nbsp; The bank accounts:</strong></summary>
 
@@ -164,6 +162,8 @@ types of access.
 <br />
 
 ![picture of a large bank in Prague, Czechia](/assets/2023-03-31/pexels-yurii-hlei-1398431.jpg)
+<sup>[via pexels](https://www.pexels.com/photo/white-and-gray-building-1398431/)</sup>
+
 
 Additionally, my primary bank account has an
 option to automatically round up any purchase
@@ -239,3 +239,44 @@ often have to dip into my purchases account,
 but that was always okay since I was still
 getting all of my payments taken care of on
 accident every time.
+
+## On Usability...
+
+I'm not sure how useful any of this is going to
+be to anyone. This felt like an obvious way for
+me to completely remove all financial
+responsibility from myself without having to
+actually give up anything. Every time I mention
+this method to people, they want me to really
+give them a good explanation and generally... I
+don't really know a good way to do that.
+
+If you have any questions, comments, or
+suggestions - please reach out via my contact
+information in the sidebar.
+
+I'm happy to provide help where I can or update
+this with any suggestions that are reasonable.
+I'm not a beacon of perfection and wonder, after
+all. I am constantly looking for good people to
+collaborate with, and if you see any part of
+this post that truly speaks to you and you want
+to involve me in any way in anything that I may
+fit into, please reach out!
+
+As mentioned above, I hope to create a simple
+tool that will help to make these sort of
+reverse-budgets a lot easier.
+
+# Adding the Actual Accounts
+<hr/>
+<sub>Below are links to instructions on adding more
+acconts to payroll systems. If you have a payroll
+system that isn't in this list and would like me
+to add the instructions below, please reach out
+with either the name of the payroll system your
+company uses or with a direct link to the how-to
+process on it.</sub>
+<br/><br/>
+
+- [ADP](https://support.adp.com/adp_payroll/content/hybrid/MyADP/EA_Manage_Your_DD.pdf)
