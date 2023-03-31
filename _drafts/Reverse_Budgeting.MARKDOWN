@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "TEST"
-#date:  2023-03-24 21:35:00 -0400
+title:  "Reverse-Budgeting"
+date:  2023-03-31 09:27:30 -0400
 categories: living
+tags: living budgeting lifestyle
 pin: true
 ---
 
@@ -88,6 +89,8 @@ I can set up multiple bank accounts for
 different types of payments with different
 types of access.
 
+<sup>[via pexels](https://www.pexels.com/photo/white-and-gray-building-1398431/)</sup>
+
 <details>
   <summary><strong> &nbsp; The bank accounts:</strong></summary>
 
@@ -159,6 +162,8 @@ types of access.
 </details>
 
 <br />
+
+![picture of a large bank in Prague, Czechia](/assets/2023-03-31/pexels-yurii-hlei-1398431.jpg)
 
 Additionally, my primary bank account has an
 option to automatically round up any purchase
