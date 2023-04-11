@@ -264,9 +264,92 @@ this post that truly speaks to you and you want
 to involve me in any way in anything that I may
 fit into, please reach out!
 
-As mentioned above, I hope to create a simple
+~~As mentioned above, I hope to create a simple
 tool that will help to make these sort of
-reverse-budgets a lot easier.
+reverse-budgets a lot easier.~~
+
+[Here](https://docs.google.com/spreadsheets/d/1H5coaIgEo8UlwO8c24OsMgv5w0YtX4e2A0zxFBWW3oc/)
+is a link to the spreadsheet template that I've put
+together that makes this process a little bit more
+visual. There is an included summary page that
+displays all of the top 5 spends by price in each kind
+of account.
+
+You'll want to make a copy of this spreadsheet to use
+it for yourself, you not only won't be able to edit it
+from that link directly, but you probably don't want
+your spending to be public.
+
+This spreadsheet will be updated periodically and may
+even be replaced as more useful and consistent or
+versatile options become available.
+
+# Affiliate Links
+These are links that are not necessary for doing this
+process but may be of use for various other tasks.
+There will be a link for each of these with a brief
+description here:
+<details>
+  <summary><strong> &nbsp; Affiliate Links:</strong></summary>
+DISCLAIMER: I am not affiliated with any of the links herein. These
+services neither endorse nor sponsor any part of this
+post or myself. I may receive compensation from the
+links in the services below via automatic affiliate
+services that are available to most members after sign
+up. Suggestions for these apps are of my own opinion
+and are subject to change at any time.
+<ul>
+<li>
+<details>
+ <summary>Privacy:</summary>
+ <ul>
+    <li>
+        Available <a href="https://privacy.com/join/DRBUG">
+        here</a>
+    </li>
+    <li>
+        Used to make temorary debit/credit cards
+    </li>
+    <li>
+        Can separate cards both by bank accounts and to
+        certain/specific merchants
+    </li>
+    <li>
+        Good for signing up to trials for various
+        services that may try to charge your card
+        either early or for a higher-than-agreed-upon
+        amount
+    </li>
+    <li>
+        Particularly useful when buying items off of
+        untrusted sites
+    </li>
+ </ul>
+    
+</details>
+</li></ul>
+<ul>
+<li>
+<details>
+ <summary>Varo:</summary>
+ <ul>
+    <li>
+        Available <a href="https://varomoney.com/r/?r=Jefferson2">
+        here</a>
+    </li>
+    <li>
+        Online bank, easy to set up
+    </li>
+    <li>
+        This is the bank that I use that has the
+        automatic savings feature that rounds up to the
+        next dollar whenever you spend any money at all
+    </li>
+ </ul>
+    
+</details>
+</li></ul>
+</details>
 
 # Adding the Actual Accounts
 <hr/>
@@ -277,6 +360,7 @@ to add the instructions below, please reach out
 with either the name of the payroll system your
 company uses or with a direct link to the how-to
 process on it.</sub>
+
 <br/><br/>
 
 - [ADP](https://support.adp.com/adp_payroll/content/hybrid/MyADP/EA_Manage_Your_DD.pdf)
