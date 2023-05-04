@@ -109,3 +109,34 @@ of data
 - extremely efficient at what it does
 
 ## Conceptualizing benefits
+
+- IT infrastructure
+  - business flexibility
+  - IT cost reduction
+  - increased capabilities
+
+- ops. benefits
+  - cost reduction
+  - reduced cycle times
+  - improved productivity
+  - improved quality
+  - improved customer service
+
+- managerial benefits
+  - better resource management
+  - improved decision making
+  - improved planning
+  - improved performance
+
+- strategic benefits
+  - business growth support
+  - business alliances support
+  - build cost leadership
+  - differentiation in products
+  - better external linkages
+
+- organizational benefits (this feels like marketing lol)
+  - work pattern changes
+  - organizational learning facilitation
+  - empowerment
+  - building common vision
