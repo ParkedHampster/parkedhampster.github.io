@@ -7,7 +7,7 @@ published: true
 pin: true
 ---
 
-# I need to read a thing :""
+## I need to read a thing :""
 
 paper somewhat older (2016)  
 can still be interesting to look into  
@@ -16,7 +16,7 @@ some of the processes have changed
 
 ------
 
-# 1 - Intro
+## 1 - Intro
 
 - IT can be better integrated
 - Big Data is promising
@@ -27,9 +27,9 @@ some of the processes have changed
 
 ------
 
-# 2 - Background
+## 2 - Background
 
-## past and present
+### past and present
 
 - "Big Data" first used in 1997
   - Michael Cox, David Ellsworth
@@ -55,12 +55,12 @@ field
 - as of writing
   - cloud computing is becoming the norm
 
-## analytics architecture
+### analytics architecture
 
 - had IT practitioners and academics design best
 practice layers
 
-### 1. Data
+#### 1. Data
 
 - required to support daily operations
 - data divided into structured,
@@ -69,26 +69,26 @@ semi-structured, and unstructured data
 locations
 - stored immediately
 
-### 2. Aggregation
+#### 2. Aggregation
 
 - handle the data
 - effectively data cleaning
 - data format conversion
 
-### 3. Analytics
+#### 3. Analytics
 
 - for data processing
 - real-time processing and parallel processing
 - generally just is analysis
 
-### 4. Information Exploration
+#### 4. Information Exploration
 
 - visualization reports
 - real-time monitoring
 - reporting
 - etc
 
-### 5. Data Governance
+#### 5. Data Governance
 
 - Master Data Management
   - application of policies and standards
@@ -102,13 +102,13 @@ locations
 - layer with the most ethical, legal, and
 regulatory concerns.
 
-## Analytics Capability
+### Analytics Capability
 
 - is designed around lots of data, health data is a lot
 of data
 - extremely efficient at what it does
 
-## Conceptualizing benefits
+## 3. Conceptualizing benefits
 
 - IT infrastructure
   - business flexibility
@@ -140,3 +140,24 @@ of data
   - organizational learning facilitation
   - empowerment
   - building common vision
+
+## Reasearch Methods
+
+- quantitative approach
+- multi-case analysis
+
+### Case collection
+
+- drawn from current and past data projects
+- specific criteria:
+  - represents actual big data implementation
+  - clearly describes software and benefit
+  implementation
+- 26 cases related to the healthcare industry
+  - kinds:
+  - 14 from vendor/company materials
+  - 2 from journal databases
+  - 10 from print publications
+  - regions:
+  - 17 from NA
+  - 7 from EU and APAC
