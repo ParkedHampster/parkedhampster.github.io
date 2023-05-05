@@ -161,3 +161,9 @@ of data
   - regions:
   - 17 from NA
   - 7 from EU and APAC
+- phase 1:
+  - senior consultant organized the data collected into
+  themes
+  - 136 IT-related statements
+  - 179 benefit-related statements
+- phase 2
